@@ -2,19 +2,18 @@
 <html lang="fa">
 <head>
     <meta charset="UTF-8">
-    <title>3D Test</title>
-    <style>
-        body { margin: 0; overflow: hidden; }
-    </style>
-
-    <!-- فایل های Three.js لوکال -->
-    <script defer src="three.min.js"></script>
-    <script defer src="OrbitControls.js"></script>
-    <script defer src="GLTFLoader.js"></script>
-
-    <!-- فایل اصلی کد -->
-    <script defer src="script.js"></script>
+    <title>ThreeJS Demo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <canvas id="myCanvas"></canvas>
+
+    <!-- لود کردن ThreeJS مستقیم از CDN که هیچ‌وقت خطا نده -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- فایل اصلی ما -->
+    <script src="script.js"></script>
+
 </body>
 </html>
